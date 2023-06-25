@@ -58,6 +58,14 @@
   justify-content: space-evenly;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: start;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
