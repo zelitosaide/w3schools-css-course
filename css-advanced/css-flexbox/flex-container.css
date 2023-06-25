@@ -86,6 +86,10 @@
   align-content: space-between;
 }
 
+.content-around {
+  align-content: space-around;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
