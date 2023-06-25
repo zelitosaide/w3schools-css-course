@@ -67,6 +67,18 @@
   flex: none;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.container {
+  height: 200px;
+}
+
 .flex > div {
   background-color: dodgerblue;
   margin: 10px;
