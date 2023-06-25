@@ -50,6 +50,10 @@
   justify-content: space-around;
 }
 
+.justify-space-between {
+  justify-content: space-between;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
