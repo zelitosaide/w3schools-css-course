@@ -110,6 +110,10 @@
   align-content: center;
 }
 
+.content-normal {
+  align-content: normal;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
