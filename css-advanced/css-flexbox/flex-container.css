@@ -30,6 +30,10 @@
   flex-wrap: wrap-reverse;
 }
 
+.flex-flow {
+  flex-flow: wrap row;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
