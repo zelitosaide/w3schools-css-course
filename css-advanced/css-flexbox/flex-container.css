@@ -1,4 +1,4 @@
-.display-flex {
+.flex {
   display: flex;
 }
 
@@ -38,7 +38,7 @@
   margin-bottom: 16px;
 }
 
-.display-flex > div {
+.flex > div {
   background-color: #f1f1f1;
   padding: 20px;
   margin: 10px;
