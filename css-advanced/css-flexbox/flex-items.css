@@ -51,6 +51,22 @@
   flex-basis: 13rem;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-none {
+  flex: none;
+}
+
 .flex > div {
   background-color: dodgerblue;
   margin: 10px;
