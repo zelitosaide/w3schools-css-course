@@ -6,6 +6,10 @@
   background-color: dodgerblue;
 }
 
+.bg-red {
+  background-color: lightcoral;
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
