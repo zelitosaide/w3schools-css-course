@@ -70,6 +70,14 @@
   align-items: flex-end;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
@@ -96,5 +104,5 @@
 }
 
 .flex.container {
-  height: 200px;
+  height: 240px;
 }
