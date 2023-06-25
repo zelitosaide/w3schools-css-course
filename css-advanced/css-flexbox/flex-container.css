@@ -106,6 +106,10 @@
   align-content: space-evenly;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
