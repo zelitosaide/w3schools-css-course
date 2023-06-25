@@ -27,6 +27,10 @@
   order: 9999;
 }
 
+.order-none {
+  order: 0;
+}
+
 .flex > div {
   background-color: dodgerblue;
   margin: 10px;
