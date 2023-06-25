@@ -106,3 +106,16 @@
 .flex.container {
   height: 240px;
 }
+
+.flex.container.line {
+  position: relative;
+}
+
+.flex.container.line::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 125px;
+  background-color: red;
+  position: absolute;
+}
