@@ -75,6 +75,10 @@
   align-self: center;
 }
 
+.self-end {
+  align-self: flex-end;
+}
+
 .container {
   height: 200px;
 }
