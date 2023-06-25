@@ -90,6 +90,10 @@
   align-content: space-around;
 }
 
+.content-stretch {
+  align-content: stretch;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
