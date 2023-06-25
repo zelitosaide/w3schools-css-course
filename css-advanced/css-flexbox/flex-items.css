@@ -2,3 +2,13 @@
   display: flex;
   background-color: #f1f1f1;
 }
+
+.flex > div {
+  background-color: dodgerblue;
+  margin: 10px;
+  width: 100px;
+  font-size: 30px;
+  line-height: 75px;
+  color: white;
+  text-align: center;
+}
