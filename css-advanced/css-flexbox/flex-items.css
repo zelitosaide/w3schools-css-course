@@ -31,6 +31,14 @@
   order: 0;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
 .flex > div {
   background-color: dodgerblue;
   margin: 10px;
