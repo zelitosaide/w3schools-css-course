@@ -98,6 +98,10 @@
   align-content: flex-start;
 }
 
+.content-end {
+  align-content: flex-end;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
