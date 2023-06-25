@@ -47,6 +47,10 @@
   flex-shrink: 0;
 }
 
+.basis-52 {
+  flex-basis: 13rem;
+}
+
 .flex > div {
   background-color: dodgerblue;
   margin: 10px;
