@@ -26,6 +26,10 @@
   flex-wrap: nowrap;
 }
 
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
