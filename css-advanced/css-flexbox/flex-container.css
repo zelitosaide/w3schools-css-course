@@ -102,6 +102,10 @@
   align-content: flex-end;
 }
 
+.content-evenly {
+  align-content: space-evenly;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
