@@ -94,6 +94,10 @@
   align-content: stretch;
 }
 
+.content-start {
+  align-content: flex-start;
+}
+
 .bg-red {
   background-color: lightcoral;
 }
