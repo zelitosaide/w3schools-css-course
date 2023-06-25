@@ -34,6 +34,14 @@
   flex-flow: wrap row;
 }
 
+.justify-start {
+  justify-content: start;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
