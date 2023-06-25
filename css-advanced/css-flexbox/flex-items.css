@@ -39,6 +39,14 @@
   flex-grow: 0;
 }
 
+.shrink {
+  flex-shrink: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
 .flex > div {
   background-color: dodgerblue;
   margin: 10px;
