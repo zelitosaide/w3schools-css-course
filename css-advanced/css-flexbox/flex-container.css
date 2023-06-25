@@ -42,6 +42,14 @@
   justify-content: end;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
 .bg-blue {
   background-color: dodgerblue;
 }
