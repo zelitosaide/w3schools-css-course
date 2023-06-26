@@ -42,10 +42,24 @@
 
 .left {
   background-color: #f1f1f1;
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
+  /* OR */
+  flex: 50%;
+  padding: 10px;
 }
 
 .right {
   background-color: dodgerblue;
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
+  /* OR */
+  flex: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .left, .right {
+    /* flex-basis: 100%; */
+    /* OR */
+    flex: 100%;
+  }
 }
