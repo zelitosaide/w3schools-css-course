@@ -22,9 +22,11 @@
 .left-item {
   background-color: #f1f1f1;
   flex-grow: 1;
+  padding: 10px;
 }
 
 .right-item {
   background-color: dodgerblue;
   flex-grow: 1;
+  padding: 10px;
 }
