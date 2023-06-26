@@ -31,6 +31,17 @@ body {
   color: black;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fakeimg {
+  padding: 20px;
+  width: 100%;
+  background-color: #aaa;
+}
+
 .footer {
   background-color: #ddd;
   padding: 20px;
