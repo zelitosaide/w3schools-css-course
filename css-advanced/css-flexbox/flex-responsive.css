@@ -6,12 +6,8 @@
   display: flex;
 }
 
-.flex-row {
+.direction {
   flex-direction: row;
-}
-
-.flex-column {
-  flex-direction: column;
 }
 
 .flex.container {
@@ -29,4 +25,10 @@
   background-color: dodgerblue;
   flex-grow: 1;
   padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .direction {
+    flex-direction: column;
+  }
 }
