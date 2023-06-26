@@ -18,3 +18,17 @@
   margin-top: 8px;
   vertical-align: middle;
 }
+
+@media (max-width: 600px) {
+  .column {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  .column {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
