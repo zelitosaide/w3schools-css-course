@@ -25,3 +25,8 @@ body {
   text-decoration: none;
   text-align: center;
 }
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
