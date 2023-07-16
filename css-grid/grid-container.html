@@ -22,7 +22,6 @@
 
       .grid {
         display: grid;
-        justify-content: space-evenly;
         padding: 10px;
         grid-template-columns: 50px 50px 50px;
         row-gap: 10px;
@@ -34,6 +33,10 @@
         padding: 20px 0;
         font-size: 30px;
         text-align: center;
+      }
+
+      .evenly {
+        justify-content: space-evenly;
       }
     </style>
   </head>
@@ -54,7 +57,7 @@
     <br>
 
     <h2>Scpace evenly</h2>
-    <div class="grid">
+    <div class="grid evenly">
       <div class="item1">1</div>
       <div class="item2">2</div>
       <div class="item3">3</div>
