@@ -58,6 +58,10 @@
       .end {
         justify-content: end;
       }
+
+      .align-center {
+        align-content: center;
+      }
     </style>
   </head>
   <body>
@@ -73,6 +77,7 @@
       <div class="item9">9</div>
     </div>
 
+    <h1>Justify content</h1>
     <h2>Scpace evenly</h2>
     <div class="grid evenly">
       <div class="item1">1</div>
@@ -125,6 +130,20 @@
 
     <h2>End</h2>
     <div style="gap: 10px;" class="grid end">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
+    </div>
+
+    <h1>Align content</h1>
+    <h2>Center</h2>
+    <div 
+      style="height: 400px; gap: 10px; grid-template-columns: auto auto auto;" 
+      class="grid align-center"
+    >
       <div class="item1">1</div>
       <div class="item2">2</div>
       <div class="item3">3</div>
