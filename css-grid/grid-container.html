@@ -19,6 +19,22 @@
         text-align: center;
         border: 1px solid black;
       }
+
+      .grid {
+        display: grid;
+        justify-content: space-evenly;
+        padding: 10px;
+        grid-template-columns: 50px 50px 50px;
+        row-gap: 10px;
+        background-color: #2196F3;
+      }    
+      
+      .grid > div {
+        background-color: lightcoral;
+        padding: 20px 0;
+        font-size: 30px;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -32,6 +48,19 @@
       <div class="item7">7</div>
       <div class="item8">8</div>
       <div class="item9">9</div>
+    </div>
+
+    <br>
+    <br>
+
+    <h2>Scpace evenly</h2>
+    <div class="grid">
+      <div class="item1">1</div>
+      <div class="item2">2</div>
+      <div class="item3">3</div>
+      <div class="item4">4</div>
+      <div class="item5">5</div>
+      <div class="item6">6</div>
     </div>
   </body>
 </html>
