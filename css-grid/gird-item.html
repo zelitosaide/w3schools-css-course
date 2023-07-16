@@ -16,6 +16,24 @@
         font-size: 30px;
         background-color: lightcoral;
       }
+
+      .grid-webpage {
+        display: grid;
+        gap: 10px;
+        background-color: #2196F3;
+        padding: 10px;
+        grid-template-areas: 
+          "header header header header header header"
+          "menu main main main right right"
+          "menu footer footer footer footer footer";
+      }
+
+      .grid-webpage > div {
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        background-color: lightcoral;
+      }
     </style>
   </head>
   <body>
@@ -188,6 +206,15 @@
       <div class="item5">5</div>
       <div class="item6">6</div>
       <div class="item7">7</div>
+    </div>
+
+    <h2>webpage</h2>
+    <div class="grid-webpage">
+      <div style="grid-area: header;" class="item1">Header</div>
+      <div style="grid-area: menu;" class="item2">Menu</div>
+      <div style="grid-area: main;" class="item3">Main</div>  
+      <div style="grid-area: right;" class="item4">Right</div>
+      <div style="grid-area: footer;" class="item5">Footer</div>
     </div>
   </body>
 </html>
